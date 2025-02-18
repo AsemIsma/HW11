@@ -7,7 +7,7 @@ function checkPalindrome (word) {
     }
     let string = "";
     for (let i = 0; i < revWord.length; i++) {
-        string += revWord[i];
+        string = string + revWord[i];
         if (string === word) {
             console.log('It is a palindrom');
         } else if (word.length === string.length) {
