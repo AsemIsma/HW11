@@ -3,7 +3,7 @@ function checkPalindrome (word) {
     let revWord = [];
     for (let i = 0; i < massiveWord.length; i++) {
         let revLetter = massiveWord[massiveWord.length - i - 1];
-        revWord.push(revLetter)
+        revWord.push(revLetter);
     }
     let string = "";
     for (let i = 0; i < revWord.length; i++) {
